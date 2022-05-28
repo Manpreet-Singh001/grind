@@ -13,7 +13,7 @@ public class LetterCombs {
         for(int i = 0; i<digits.length(); i++){
             // index has each characters digit value
             int index = Character.getNumericValue(digits.charAt(i));
-
+            System.out.println(output_arr);
 
             while (output_arr.peek().length() == i){
                 String permutation = output_arr.remove();
