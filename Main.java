@@ -3,11 +3,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        char [] s = {'a','b','c','d'};
-        char [] s1 = {'a'};
-        char [] s2 = {'a','b','c'};
-        LC344.reverseString(s);
-        LC344.reverseString(s1);
-        LC344.reverseString(s2);
+        for(String s: LC241.stringToArray("1*3+413-1431")){
+            System.out.println(s);
+        };
     }
 }
