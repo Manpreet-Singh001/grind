@@ -1,9 +1,9 @@
-
+import ctci.CTCI1_2;
+import ctci.Ctci1_1;
 
 public class Main {
-
     public static void main(String[] args) {
-        int [] input = {-1,0,3,5,9,12};
-        System.out.println(LC704.search(input,2));
+        int [] nums = {1,3,5,6};
+        System.out.println(LC35.searchInsert(nums,4));
     }
 }
