@@ -1,7 +1,10 @@
+import java.util.HashSet;
+
 public class LC35 {
     public static int searchInsert(int[] nums, int target){
         int low = 0;
         int high = nums.length - 1;
+        HashSet<Character> mySet = new HashSet<>();
         while (low<=high){
             int mid = low + (high - low)/2;
             if(nums[mid] == target){
