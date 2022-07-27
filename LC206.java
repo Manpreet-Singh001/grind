@@ -1,6 +1,5 @@
 public class LC206 {
     public ListNode reverseList(ListNode head) {
-
         if (head == null) return head;
 
         ListNode newHead = null;
